@@ -11,6 +11,10 @@ declare module "sst" {
       name: string
       type: "sst.aws.Dynamo"
     }
+    SessionKey: {
+      type: "sst.sst.Secret"
+      value: string
+    }
   }
 }
 export {}

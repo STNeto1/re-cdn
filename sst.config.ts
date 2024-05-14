@@ -9,6 +9,11 @@ export default $config({
 		};
 	},
 	async run() {
+		const sessionKey = new sst.Secret(
+			"SessionKey",
+			"UUcLQx0U3GcWFqnMr00AUXpdTWC5t3o5",
+		);
+
 		// it's the fifth or sixth attempt of a correct key
 		const table = new sst.aws.Dynamo("Dynamo", {
 			fields: {
@@ -21,7 +26,7 @@ export default $config({
 			public: false,
 		});
 		const web = new sst.aws.SolidStart("SolidWeb", {
-			link: [table, bucket],
+			link: [table, bucket, sessionKey],
 		});
 
 		return {
