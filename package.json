@@ -7,9 +7,11 @@
     "start": "vinxi start"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.574.0",
     "@solidjs/router": "^0.13.3",
     "@solidjs/start": "^1.0.0-rc.1",
     "autoprefixer": "^10.4.19",
+    "electrodb": "^2.14.0",
     "postcss": "^8.4.38",
     "solid-js": "^1.8.17",
     "sst": "ion",
@@ -17,7 +19,7 @@
     "vinxi": "^0.3.11"
   },
   "engines": {
-    "node": "\u003e=18"
+    "node": ">=18"
   },
   "overrides": {
     "nitropack": "npm:nitropack-nightly@latest"

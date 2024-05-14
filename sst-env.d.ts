@@ -7,6 +7,10 @@ declare module "sst" {
       name: string
       type: "sst.aws.Bucket"
     }
+    Dynamo: {
+      name: string
+      type: "sst.aws.Dynamo"
+    }
   }
 }
 export {}
