@@ -8,14 +8,20 @@
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.574.0",
+    "@fontsource/inter": "^5.0.18",
+    "@kobalte/core": "^0.13.1",
     "@solidjs/router": "^0.13.3",
     "@solidjs/start": "^1.0.0-rc.1",
     "autoprefixer": "^10.4.19",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "electrodb": "^2.14.0",
     "postcss": "^8.4.38",
     "solid-js": "^1.8.17",
     "sst": "ion",
+    "tailwind-merge": "^2.3.0",
     "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7",
     "vinxi": "^0.3.11"
   },
   "engines": {
