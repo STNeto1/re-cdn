@@ -1,4 +1,4 @@
-import { A, RouteDefinition } from "@solidjs/router";
+import { A, type RouteDefinition } from "@solidjs/router";
 
 export const route = {
 	async load() {},
@@ -16,6 +16,7 @@ export default function HomePage() {
 					href="https://solidjs.com"
 					target="_blank"
 					class="text-sky-600 hover:underline"
+					rel="noreferrer"
 				>
 					solidjs.com
 				</a>{" "}

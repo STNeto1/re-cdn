@@ -1,7 +1,7 @@
+import { action, redirect } from "@solidjs/router";
+import type { FetchEvent } from "@solidjs/start/server";
 import { Resource } from "sst";
 import { useSession } from "vinxi/http";
-import { action, redirect } from "@solidjs/router";
-import { FetchEvent } from "@solidjs/start/server";
 
 export const useIsAuthenticated = async (event: FetchEvent) => {
 	const session = await useSession<{ timestamp: string | null }>(
