@@ -1,37 +1,42 @@
 {
-	"name": "example-with-tailwindcss",
-	"type": "module",
-	"scripts": {
-		"build": "vinxi build",
-		"dev": "sst dev vinxi dev",
-		"start": "vinxi start",
-		"format": "biome format --write ./src",
-		"lint": "biome lint --apply ./src",
-		"check": "biome check --apply ./src"
-	},
-	"dependencies": {
-		"@fontsource/inter": "^5.0.18",
-		"@kobalte/core": "0.12.6",
-		"@solidjs/router": "^0.13.3",
-		"@solidjs/start": "^1.0.0-rc.1",
-		"solid-js": "^1.8.17",
-		"sst": "ion",
-		"vinxi": "^0.3.11"
-	},
-	"engines": {
-		"node": ">=18"
-	},
-	"overrides": {
-		"nitropack": "npm:nitropack-nightly@latest"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.7.3",
-		"tailwind-merge": "^2.3.0",
-		"tailwindcss": "^3.4.3",
-		"tailwindcss-animate": "^1.0.7",
-		"autoprefixer": "^10.4.19",
-		"class-variance-authority": "^0.7.0",
-		"clsx": "^2.1.1",
-		"postcss": "^8.4.38"
-	}
+  "name": "example-with-tailwindcss",
+  "type": "module",
+  "scripts": {
+    "build": "vinxi build",
+    "dev": "sst dev vinxi dev",
+    "start": "vinxi start",
+    "format": "biome format --write ./src",
+    "lint": "biome lint --apply ./src",
+    "check": "biome check --apply ./src"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.577.0",
+    "@aws-sdk/s3-request-presigner": "^3.577.0",
+    "@fontsource/inter": "^5.0.18",
+    "@kobalte/core": "0.12.6",
+    "@modular-forms/solid": "^0.20.0",
+    "@solidjs/router": "^0.13.3",
+    "@solidjs/start": "^1.0.0-rc.1",
+    "nanoid": "^5.0.7",
+    "solid-js": "^1.8.17",
+    "sst": "ion",
+    "valibot": "^0.30.0",
+    "vinxi": "^0.3.11"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "overrides": {
+    "nitropack": "npm:nitropack-nightly@latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.3",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7",
+    "autoprefixer": "^10.4.19",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "postcss": "^8.4.38"
+  }
 }
